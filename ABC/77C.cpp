@@ -27,7 +27,7 @@ int main(){
     rep(i,n){
         int y = b[i];
         auto p = lower_bound(all(a), y);
-        auto q = upper_bound(all(c), y);
+        auto q = lower_bound(all(c), y);
         int l = p - a.begin();
         int m = q - c.begin();
         ans += (ll)(l * (n - m));
