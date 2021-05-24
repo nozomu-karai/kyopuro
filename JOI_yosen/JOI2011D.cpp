@@ -14,10 +14,5 @@ using VV = V<V<T>>;
 #define MOD = 1000000007
 
 int main(){
-    int h, w, n;
-    cin >> h >> w >> n;
-    V<string> field(h);
-    rep(i,h) cin >> field[i];
-    VV<bool> seen(h, V<bool>);
-    rep(i,h) rep(j,w) seen[i][j] = false;
+
 }
